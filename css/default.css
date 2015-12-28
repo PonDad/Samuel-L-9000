@@ -1,0 +1,91 @@
+/*Created specially for Onextrapixel
+
+http://www.onextrapixel.com
+
+Free for use, further development or integration in your personal or commercial projects. Credit or reference back to us is greatly appreciated.
+Please do not redistribute, republish, host or sell the work. Please contact us if you have any other queries.
+
+For more information, visit: http://www.onextrapixel.com/terms-of-use/ */
+
+/* Default Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+/* HTML from Bootstrap */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+  	font-size: 100%;
+  	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Main Style */
+body {
+	font-family: 'Roboto',Arial,sans-serif;
+	color: #fff;
+	background: #f8d135;
+}
+
+a, a:visited {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #333;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto',Arial,sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+/* Header Style */
+.container .header {
+	margin: 0 auto;
+  margin-bottom: 40px;
+	padding: 5px;
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+}
+
+.container .header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.8;
+	padding-bottom: 0.6em;
+}
+
+/* Responsive */
+@media screen and (max-width: 25em) {
+	.nav-icon span { display: none; }
+}
