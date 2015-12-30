@@ -15,6 +15,8 @@ Youtube
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/T2RdENgHdEc" frameborder="0" allowfullscreen></iframe>
 
+[![Samuel L 900](https://www.youtube.com/embed/T2RdENgHdEc/0.jpg)](https://www.youtube.com/embed/T2RdENgHdEc)
+
 [Samuel L 900](https://www.youtube.com/embed/T2RdENgHdEc)
 
 
